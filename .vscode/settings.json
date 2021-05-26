@@ -1,0 +1,5 @@
+{
+    "java.saveActions.organizeImports": true,
+    "java.home": "/usr/lib/jvm/adoptopenjdk-15-hotspot-amd64",
+    "kotlin.compiler.jvm.target": "1.8"
+}
