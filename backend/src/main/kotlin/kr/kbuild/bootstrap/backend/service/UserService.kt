@@ -4,7 +4,6 @@ import org.springframework.security.crypto.argon2.Argon2PasswordEncoder
 import kr.kbuild.bootstrap.backend.model.User
 import kr.kbuild.bootstrap.backend.repository.UserRepository
 import org.springframework.stereotype.Service
-import org.springframework.beans.factory.annotation.Autowired
 
 @Service
 class UserService(private val userRepository: UserRepository) {
