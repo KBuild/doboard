@@ -27,10 +27,17 @@ dependencies {
 	// Spring
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.springframework.session:spring-session-jdbc")
+	implementation("org.bouncycastle:bcprov-jdk15on:1.64")
+    implementation("org.springframework.security:spring-security-core")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
 	// H2 Database
 	implementation("com.h2database:h2")
+
+	// GraphQL
+    //implementation("com.graphql-java-kickstart:graphql-spring-boot-starter")
+    //implementation("com.graphql-java-kickstart:graphiql-spring-boot-starter")
 
 	// Kotlin
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
